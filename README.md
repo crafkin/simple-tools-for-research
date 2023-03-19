@@ -1,10 +1,8 @@
 # simple-tools-for-research
-This respository contains simple tools I use for research workflow. Your mileage may vary. 
+This respository contains simple tools I use for research workflow. Your mileage may vary! 
 
 ## JS code for Qualtrics
 I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). 
-
-Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
 ## Splitting PDFs 
 When presenting busy experiment design visualizations in a presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
@@ -14,7 +12,7 @@ The PDF has several pages. It is tedious to manually extract each page and save 
 The below code requires having installed `split-pdf`; they just call the utility. 
 
 - [Simple python implementation](split-pdf.py). 
-- [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x-split-pdf`, if added to your emacs preferences. 
+- [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
 
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
@@ -22,9 +20,9 @@ Beamer is smart enough to handle for loops. This is useful when presenting any g
 
 ## Uninformative Git
 I use Git to sync between Overleaf and code on the server. Any minor
-change in Overleaf requires a `git pull origin master`, `git commit
--am`, and then `git push origin master` logic. I
-don't need to have informative comments for this process. I defined the aliases `git
+change in Overleaf requires that I enter `git pull origin master`, `git commit
+-am`, and then `git push origin master` to push a new figure that Overleaf can see. I
+don't need informative comments for this process and want to do it in one line. I defined the aliases `git
 pp` and `git ppu` [here](gitconfig) that make this a one-step
 process. *Warning: the only Git comment for pushing it will be "update," so use at your
 own risk.* 
