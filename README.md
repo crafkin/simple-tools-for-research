@@ -1,10 +1,8 @@
 # simple-tools-for-research
-This respository contains simple tools I use for research workflow. Your mileage may vary. 
+This respository contains simple tools I use for research workflow. Your mileage may vary! 
 
 ## JS code for Qualtrics
 I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). 
-
-Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
 ## Splitting PDFs 
 When presenting busy experiment design visualizations in a presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
