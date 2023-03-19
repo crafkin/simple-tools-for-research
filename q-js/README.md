@@ -25,7 +25,7 @@ You must do the following three-step process.
 
 All credit goes to Jenna Anders for figuring this one out. 
 
-## 
+## Dynamic computations
 Usually computations need one page to load. For example, if you
 generate an embedded data field based on a question, you cannot have
 another text populate with math based on the original question on the
