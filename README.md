@@ -9,7 +9,7 @@ When presenting busy experiment design visualizations in a presentation, it is u
 
 The PDF has several pages. It is tedious to manually extract each page and save as a new PDF. The purpose of the below code is to use the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf. You can use python (say) to feed a pdf into the utility, which will automatically split the pdf into individual pages, indexed by numbers. For instance, if you input the pdf titled `experiment-design.pdf`, which is 5 pages long, it will generate 5 pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes. 
 
-The below code requires having installed `split-pdf`; they just call the utility. 
+The below code requires having installed `split-pdf`, via `brew install split-pdf`. They just call the utility. 
 
 - [Simple python implementation](split-pdf.py). 
 - [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
