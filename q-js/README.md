@@ -91,8 +91,7 @@ hides the back button.
 ## Adding units to form fields
 Consider the following question: 
 
-<img src="/q-js/screenshots-for-readme/rent.png" alt="Rent without
-units" style="width:60%;">
+<img src="/q-js/screenshots-for-readme/rent.png" alt="Rent without units" style="width:60%;">
 
 While the question is fairly precise, it’s better for the question to look like this: 
 
