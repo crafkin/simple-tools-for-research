@@ -1,10 +1,14 @@
 # JS code
+Here are some simple Javascript hacks I regularly use to improve
+Qualtrics surveys. They should be copy-pasted to include between the 
+
+
 
 ## Visualizing percentages
 It is often useful to produce a dynamic visualization of a percentage
 (out of 100), as in the following: 
 
-![](/q-js/screenshots-for-readme/dynamic-pct.png "Dynamic Percentage")
+<img src="/q-js/screenshots-for-readme/phone-number.png" alt="Phone" style="width:50%;">
 
 You must do the following three-step process. 
 1. Add [this code](dynamic-pct-css.css) to your Custom CSS. 
@@ -44,12 +48,7 @@ means that it’s impossible to tell ex post if people were skipping
 through the task. 
 
 To create an embedded data variable that will export with your data,
-use this code: 
-
-```
-var PageLoad = Date.now();
-Qualtrics.SurveyEngine.setEmbeddedData('PageLoad', PageLoad);
-```
+use [this code](pageload.js). 
 
 This will set a variable called `PageLoad` that gives a javascript time,
 in milliseconds since January 1, 1970, of when they loaded the page
@@ -60,7 +59,7 @@ number of milliseconds elapsed on the given page.
 ## Back Buttons
 Sometimes you want to stop a participant from going backward in the
 survey. Participants can never go backward to a previous block, but it
-can be inconvenient sometimes to split up blocks. Including the line:
+can be inconvenient sometimes to split up blocks. Including [the line](backbutton.js):
 ```
 jQuery("#PreviousButton").hide()
 ```
@@ -73,7 +72,7 @@ Consider the following question:
 
 While the question is fairly precise, it’s better for the question to look like this: 
 
-![](/q-js/screenshots-for-readme/rent-units.png "Rent without units")
+![](/q-js/screenshots-for-readme/rent_units.png "Rent without units")
 
 because the latter reduces risk of inconsistencies across subjects and
 makes the units clear. 
