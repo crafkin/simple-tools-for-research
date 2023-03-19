@@ -16,7 +16,7 @@ The below code requires having installed `split-pdf`, via `brew install split-pd
 
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
-- [Simple minimal working example](iterate-visualization-example.tex). 
+- [Minimal working example](iterate-visualization-example.tex). 
 
 ## Uninformative Git
 I use Git to sync between Overleaf and code on the server. Any minor
