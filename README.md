@@ -2,7 +2,7 @@
 This respository contains simple tools I use for research workflow. Your mileage may vary. 
 
 ## JS code for Qualtrics
-I have a number of Qualtrics Javascript hacks for use in surveys. Extended details (here)[q-js/README.md]. 
+I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). 
 
 Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
@@ -19,3 +19,21 @@ The below code requires having installed `split-pdf`; they just call the utility
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
 - [Simple minimal working example](iterate-visualization-example.tex). 
+
+## Uninformative Git
+I use Git to sync between Overleaf and code on the server. Any minor
+change in Overleaf requires a `git pull origin master`, `git commit
+-am`, and then `git push origin master` logic. I
+don't need to have informative comments for this process. I defined the aliases `git
+pp` and `git ppu` [here](gitconfig) that make this a one-step
+process. *Warning: the only Git comment for pushing it will be "update," so use at your
+own risk.* 
+- Requires that your main branch be called `main` 
+- `git ppu` pulls and then pushes
+- If there is nothing new to pull from the other side, `git ppu` breaks. Just run `git
+  pp`. 
+- Also defines the aliases: (i) `git st` for `git status`, and (ii) `git ci` for
+  `git commit -am`, which pushes anything that has changed and has
+  already been committed. 
+  
+
