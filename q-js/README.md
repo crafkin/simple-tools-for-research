@@ -102,7 +102,8 @@ because the latter reduces risk of inconsistencies across subjects and
 makes the units clear. 
 
 Using [this code](units.js) will add the "dollars per month" units into the form
-field. 
+field. You can update the units directly in the code for your
+purposes. 
 
 ## Add text to "other" options in multiple choice
 Super minor formatting tweak.  Qualtrics' default "add text" response to other options makes it
