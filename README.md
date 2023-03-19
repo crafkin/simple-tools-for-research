@@ -10,4 +10,4 @@ When presenting busy experiment design visualizations in a presentation, it is u
 
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any visualization that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
-- iterate-visualization-example.tex: Simple minimal working example. 
+- `iterate-visualization-example.tex`: Simple minimal working example. 
