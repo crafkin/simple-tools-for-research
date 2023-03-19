@@ -8,7 +8,8 @@ Qualtrics surveys. They should be copy-pasted to include between the
 It is often useful to produce a dynamic visualization of a percentage
 (out of 100), as in the following: 
 
-<img src="/q-js/screenshots-for-readme/phone-number.png" alt="Phone" style="width:50%;">
+
+![](/q-js/screenshots-for-readme/dynamic-pct.png "Dynamic Percentage")
 
 You must do the following three-step process. 
 1. Add [this code](dynamic-pct-css.css) to your Custom CSS. 
@@ -36,7 +37,7 @@ delete)* is, if you use [this code](instant-math.js).
 Often you want a phone number to format properly *when it is entered*, so
 that the view is natural to the research participant:
 
-![](/q-js/screenshots-for-readme/phone-number.png "Phone")
+<img src="/q-js/screenshots-for-readme/phone-number.png" alt="Phone" style="width:20%;">
 
 [This code](phone-numbers.js) will achieve that. It can also be used to format dates as
 `1/1/2023`, for instance. 
