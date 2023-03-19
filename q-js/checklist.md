@@ -5,13 +5,13 @@ I run through these before I hit “send” on any survey, to make sure I’m no
 ## General 
 - [ ] You have personally taken the survey at least 10 times. 
 - [ ] You have generated test data and confirmed that all randomization probabilities are accurate. 
-- [ ] All questions are listed as required, unless they are an attention check or are supposed to be optional. 
 - [ ] Any testing blocks or test embedded data have been deleted. 
 
 ## Survey decisions — don’t use the Qualtrics defaults by accident! 
 - [ ] You have actively decided whether and when the survey should expire, using the Survey Options dropdowns. 
 - [ ] You have made an active decision about whether the back button should be visible at every question in the survey. 
 - [ ] You have made a decision about the anonymity of the survey, ballot stuffing, etc., on the Qualtrics Security preferences. 
+- [ ] You have made an active decision about whether every question shoudl be required or optional.
 
 ## Validations
 - [ ] All numeric questions have sensible validations (e.g., unless you are surveying CEOs, annual salaries are restricted to be between 0 and 1 million, etc.). 
