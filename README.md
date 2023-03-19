@@ -1,8 +1,8 @@
 # simple-tools-for-research
 This respository contains simple tools I use for research workflow. Your mileage may vary! 
 
-## JS code for Qualtrics
-I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). 
+## Qualtrics
+I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). And [here](q-js/checklist.md) is a simple checklist to make sure I'm not forgetting anything before launching a Qualtrics survey. 
 
 ## Splitting PDFs 
 When presenting busy experiment design visualizations in a presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
@@ -31,7 +31,7 @@ own risk.*
 - If there is nothing new to pull from the other side, `git ppu` breaks. Just run `git
   pp`. 
 - Also defines the aliases: (i) `git st` for `git status`, and (ii) `git ci` for
-  `git commit -am`, which pushes anything that has changed and has
+  `git commit -am`, which adds anything that has changed and has
   already been committed. 
   
 
