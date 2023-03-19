@@ -2,6 +2,11 @@
 Here are some simple Javascript hacks I regularly use to improve
 Qualtrics surveys. They should be copy-pasted to include between the 
 
+```
+Qualtrics.SurveyEngine.addOnload(function() {
+});
+
+```
 
 
 ## Visualizing percentages
