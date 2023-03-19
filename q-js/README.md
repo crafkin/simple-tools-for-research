@@ -106,6 +106,7 @@ field.
 ## Add text to "other" options in multiple choice
 Super minor formatting tweak.  Qualtrics' default "add text" response to other options makes it
 slightly ambiguous what the text box refers to:
+
 ![](/q-js/screenshots-for-readme/rent.png "Rent without units")
 
 You can disambiguate with [this code](disambiguate-text.js): 
