@@ -91,11 +91,12 @@ hides the back button.
 ## Adding units to form fields
 Consider the following question: 
 
-![](/q-js/screenshots-for-readme/rent.png "Rent without units")
+<img src="/q-js/screenshots-for-readme/rent.png" alt="Rent without
+units" style="width:60%;">
 
 While the question is fairly precise, it’s better for the question to look like this: 
 
-![](/q-js/screenshots-for-readme/rent_units.png "Rent without units")
+<img src="/q-js/screenshots-for-readme/rent_units.png" alt="Rent with units" style="width:60%;">
 
 because the latter reduces risk of inconsistencies across subjects and
 makes the units clear. 
