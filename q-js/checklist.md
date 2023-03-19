@@ -16,10 +16,11 @@ I run through these before I hit “send” on any survey, to make sure I’m no
 ## Validations
 - [ ] All numeric questions have sensible validations (e.g., unless you are surveying CEOs, annual salaries are restricted to be between 0 and 1 million, etc.). 
 - [ ] Where sensible, questions and/or question responses are presented in random order to reduce the effects of anchoring. 
-- [ ] You include units in form responses or text answers
-For example, if you ask someone for their salary, you should have the words “dollars per month” appear after their question, as follows: 
+- [ ] You include units in form responses or text answers. For example, if you ask someone for their salary, you should have the words “dollars per month” appear after their question, as follows: 
 
-<img src="/q-js/screenshots-for-readme/rent_units.png" alt="Rent with units" style="width:20%;"> *Note: Sample code for this appears [here](/q-js/units.js)* 
+<img src="/q-js/screenshots-for-readme/rent_units.png" alt="Rent with units" style="width:20%;"> 
+
+*Note: Sample code for this appears [here](/q-js/units.js)* 
 
 - [ ] All places where you promise to pay a participant have been checked. The total never exceeds $100 (unless this payment is approved by IRB). 
 
