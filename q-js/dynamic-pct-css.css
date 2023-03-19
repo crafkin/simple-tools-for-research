@@ -1,0 +1,50 @@
+:root {
+  --grid-cols: 10;
+  --grid-rows: 10;
+}
+
+#container {
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 300px;
+}
+
+#col1 {
+  display: grid;
+  grid-gap: 0.01em;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 300px;
+  padding: 10px;
+}
+
+#col2 {
+  display: grid;
+  grid-gap: 0.01em;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  width: 300px;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: b
+}

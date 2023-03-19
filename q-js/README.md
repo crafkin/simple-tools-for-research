@@ -4,7 +4,7 @@
 It is often useful to produce a dynamic visualization of a percentage
 (out of 100), as in the following: 
 
-![](/q-js/screenshots-for-readme/dynamic-pcy.png "Dynamic Percentage")
+![](/q-js/screenshots-for-readme/dynamic-pct.png "Dynamic Percentage")
 
 You must do the following three-step process. 
 1. Add [this code](dynamic-pct-css.css) to your Custom CSS. 
