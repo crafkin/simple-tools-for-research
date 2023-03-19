@@ -107,11 +107,11 @@ field.
 Super minor formatting tweak.  Qualtrics' default "add text" response to other options makes it
 slightly ambiguous what the text box refers to:
 
-<img src="/q-js/screenshots-for-readme/text-default.png" alt="Rent without units" style="width:20%;">
+<img src="/q-js/screenshots-for-readme/text-default.png" alt="Rent without units" style="width:40%;">
 
 You can disambiguate with [this code](disambiguate-text.js): 
 
-<img src="/q-js/screenshots-for-readme/text-updated.png" alt="Rent without units" style="width:20%;">
+<img src="/q-js/screenshots-for-readme/text-updated.png" alt="Rent without units" style="width:40%;">
 
 
 
