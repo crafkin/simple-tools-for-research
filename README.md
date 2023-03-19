@@ -1,8 +1,10 @@
 # simple-tools-for-research
 This respository contains simple tools I use for research workflow. Your mileage may vary. 
 
-## Qualtrics JS code
-Special thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
+## JS code for Qualtrics
+I have a number of Qualtrics Javascript hacks for use in surveys. Extended details here. 
+
+Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
 ## Splitting PDFs 
 When presenting busy experiment design visualizations in a presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
@@ -11,9 +13,9 @@ The PDF has several pages. It is tedious to manually extract each page and save 
 
 The below code requires having installed `split-pdf`; they just call the utility. 
 
-- [split-pdf.py](Simple python implementation). 
-- [split-pdf.lisp](Emacs lisp implementation). Callable via `M-x-split-pdf`, if added to your emacs preferences. 
+- [Simple python implementation](split-pdf.py). 
+- [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x-split-pdf`, if added to your emacs preferences. 
 
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
-- [iterate-visualization-example.tex](Simple minimal working example). 
+- [Simple minimal working example](iterate-visualization-example.tex). 
