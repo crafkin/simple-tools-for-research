@@ -110,6 +110,7 @@ slightly ambiguous what the text box refers to:
 ![](/q-js/screenshots-for-readme/rent.png "Rent without units")
 
 You can disambiguate with [this code](disambiguate-text.js): 
+
 ![](/q-js/screenshots-for-readme/rent_units.png "Rent without units")
 
 
