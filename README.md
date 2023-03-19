@@ -2,7 +2,7 @@
 This respository contains simple tools I use for research workflow. Your mileage may vary. 
 
 ## JS code for Qualtrics
-I have a number of Qualtrics Javascript hacks for use in surveys. Extended details (here)[q-js/README.md]. 
+I have a number of Qualtrics Javascript hacks for use in surveys. Extended details [here](q-js/README.md). 
 
 Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
