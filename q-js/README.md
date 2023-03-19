@@ -7,7 +7,7 @@ Qualtrics.SurveyEngine.addOnload(function() {
 });
 
 ```
-
+Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
 
 ## Visualizing percentages
 It is often useful to produce a dynamic visualization of a percentage
@@ -22,6 +22,8 @@ You must do the following three-step process.
    adding units at the indicated section. 
 3. Make the Question a Text Entry and include the following raw text where you want the box to appear: 
 *Div1 (Do not delete)*. 
+
+All credit goes to Jenna Anders for figuring this one out. 
 
 ## 
 Usually computations need one page to load. For example, if you
