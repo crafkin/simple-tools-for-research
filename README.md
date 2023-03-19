@@ -12,7 +12,7 @@ The PDF has several pages. It is tedious to manually extract each page and save 
 The below code requires having installed `split-pdf`; they just call the utility. 
 
 - [Simple python implementation](split-pdf.py). 
-- [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x-split-pdf`, if added to your emacs preferences. 
+- [Emacs lisp implementation](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
 
 ## Iterating through graphics on Beamer
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
