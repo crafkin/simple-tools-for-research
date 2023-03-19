@@ -7,7 +7,10 @@ Qualtrics.SurveyEngine.addOnload(function() {
 });
 
 ```
-Thanks to my collaborators (especially Jenna Anders) and ChatGPT for these. 
+Thanks to my coauthors (especially Jenna Anders) and ChatGPT for these. 
+
+## Checklist
+Before launching a survey, I run through [this checklist](checklist.md) to make sure I'm not forgetting any details. 
 
 ## Visualizing percentages
 It is often useful to produce a dynamic visualization of a percentage
