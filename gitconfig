@@ -1,0 +1,5 @@
+st = status
+ci = commit -am
+pp = !git pull origin main && git push origin main
+ppu = !git ci "update" && git pull origin main && git push origin main
+
