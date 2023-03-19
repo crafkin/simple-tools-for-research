@@ -24,7 +24,7 @@ You must do the following three-step process.
 1. Add [this code](dynamic-pct-css.css) to your Custom CSS. 
 2. Add [this code](dynamic-pct-js.js) to the question you want,
    adding units at the indicated section. 
-3. Make the Question a Text Entry and include the following raw text where you want the box to appear: 
+3. Make the question type "Text Entry" and include the following raw text where you want the box to appear: 
 *Div1 (Do not delete)*. 
 
 All credit goes to Jenna Anders for figuring this one out. 
