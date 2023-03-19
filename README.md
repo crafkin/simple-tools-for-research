@@ -20,9 +20,9 @@ Beamer is smart enough to handle for loops. This is useful when presenting any g
 
 ## Uninformative Git
 I use Git to sync between Overleaf and code on the server. Any minor
-change in Overleaf requires a `git pull origin master`, `git commit
--am`, and then `git push origin master` logic. I
-don't need to have informative comments for this process. I defined the aliases `git
+change in Overleaf requires that I enter `git pull origin master`, `git commit
+-am`, and then `git push origin master` to push a new figure that Overleaf can see. I
+don't need informative comments for this process and want to do it in one line. I defined the aliases `git
 pp` and `git ppu` [here](gitconfig) that make this a one-step
 process. *Warning: the only Git comment for pushing it will be "update," so use at your
 own risk.* 
