@@ -13,5 +13,5 @@ The below code requires having installed `split-pdf`; they just call the utility
 - `split-pdf.lisp`: Emacs lisp implementation. Callable via `M-x-split-pdf`, if added to your emacs preferences. 
 
 ## Iterating through graphics on Beamer
-Beamer is smart enough to handle for loops. This is useful when presenting any visualization that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
+Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors.
 - `iterate-visualization-example.tex`: Simple minimal working example. 
