@@ -11,7 +11,7 @@ When presenting busy experiment design visualizations in a Beamer presentation, 
 
 The exported PDF has several pages, one for each step of the visualization. It is tedious to manually extract each page and save as a new PDF. The below code uses the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf, for inputting into Beamer. You can use Python (say) to call the utility and split the pdf into individual pages, indexed by numbers. 
 
-For instance, if you input the pdf titled `experiment-design.pdf`, which is five pages long, it will generate five one-page pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes of manually exporting. 
+For instance, suppose you have `experiment-design.pdf` which is five pages long. You can generate five one-page pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, which saves a few minutes of manually exporting. 
 
 The code requires having installed `split-pdf`, via `brew install split-pdf`. The code just calls the utility. 
 
