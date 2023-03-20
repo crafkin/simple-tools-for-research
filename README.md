@@ -7,13 +7,9 @@ Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/READM
 ## Automatically split PDFs 
 Do you find it annoying to manually export PDFs into separate documents, e.g. for visualizations that gradually appear in a Beamer presentation? 
 
-*Use case.* When presenting busy experiment design visualizations in a Beamer presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
-
-The exported PDF has several pages, one for each step of the visualization. It is tedious to manually extract each page and save as a new PDF. The below code uses the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf, for inputting into Beamer. You can use Python (say) to call the utility and split the pdf into individual pages, indexed by numbers. 
-
 For instance, suppose you have `experiment-design.pdf` which is five pages long. You can generate five one-page pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, which saves a few minutes of manually exporting. 
 
-*Code.* The code requires having installed `split-pdf`, via `brew install split-pdf`. The code just calls the utility. 
+The code requires having installed `split-pdf`, via `brew install split-pdf`. The code just calls the utility. 
 
 - [Python](split-pdf.py). 
 - [Emacs lisp](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
@@ -21,7 +17,7 @@ For instance, suppose you have `experiment-design.pdf` which is five pages long.
 ## For loops in Beamer
 Do you want Beamer to iterate through several slides that only change the graphic, e.g. for showing figures that gradually appear? 
 
-Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors if you change another part of the slide. 
+Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-pasting the slide and changing the suffix at the end of the pdf names. Copy-paste can introduce errors if you change another part of the slide. 
 - [Minimal working example](iterate-visualization-example.tex). 
 
 ## One-line Git pull, commit, and push
