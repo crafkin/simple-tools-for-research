@@ -1,6 +1,6 @@
 # Checklist Before Launch
 
-I run through these before I hit “send” on any survey, to make sure I’m not forgetting something. 
+I run through these before I hit “publish” on any survey, to make sure I’m not forgetting something.
 
 ## General 
 - [ ] You have personally taken the survey at least 10 times. 
