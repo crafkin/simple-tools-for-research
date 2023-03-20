@@ -7,7 +7,9 @@ Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/READM
 ## Splitting PDFs 
 When presenting busy experiment design visualizations in a Beamer presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
 
-The exported PDF has several pages. It is tedious to manually extract each page and save as a new PDF. The purpose of the below code is to use the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf, for inputting into Beamer. You can use Python (say) to call the utility and split the pdf into individual pages, indexed by numbers. For instance, if you input the pdf titled `experiment-design.pdf`, which is 5 pages long, it will generate 5 pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes of manually exporting. 
+The exported PDF has several pages. It is tedious to manually extract each page and save as a new PDF. The purpose of the below code is to use the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf, for inputting into Beamer. You can use Python (say) to call the utility and split the pdf into individual pages, indexed by numbers. 
+
+For instance, if you input the pdf titled `experiment-design.pdf`, which is five pages long, it will generate five one-page pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes of manually exporting. 
 
 The below code requires having installed `split-pdf`, via `brew install split-pdf`. The code just calls the utility. 
 
