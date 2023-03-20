@@ -1,5 +1,5 @@
 # simple-tools-for-research
-This respository contains simple tools I use for research workflow. Your mileage may vary! 
+This respository contains simple tools I use for research workflow. Your mileage may vary! Thanks to ChatGPT for research assistance. 
 
 ## Qualtrics
 Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/README.md). And [here](q-js/checklist.md) is a short checklist to make sure you're not forgetting anything before launching a Qualtrics survey. 
