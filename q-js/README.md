@@ -57,9 +57,9 @@ include a confirmation check that repeats a more intuitive, "plain-English" prop
 back to them. For example, if the participant states that "20% of people do X", you can ask them to
 confirm that they meant "1 in 5 people do X."
 
-[This code](odds.js) generates an embedded data field called `proportion`, converted from a number (assumed to be out of 100). `proportion` contains the "reduced" "plain-English" proportion; if the number selected is 20, `proportion` stores the string "1 in 5". Add the code
+[This code](odds.js) generates an embedded data field called `proportion`, converted from a number (assumed to be out of 100). `proportion` contains the "reduced" "plain-English" proportion; e.g., if the number selected is 20, `proportion` stores the string "1 in 5". Add the code
 to a question that elicits a percentage as a slider from 0 to 100. You
-need to change the `QIDXXX` to your question ID number. The subsequent
+need to change the `QIDXXX` in the code to your question ID number. The subsequent
 screen can encode the proportion. 
 
 ## Embedding timers
