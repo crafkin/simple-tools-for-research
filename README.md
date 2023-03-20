@@ -2,14 +2,14 @@
 This respository contains simple tools I use for research workflow. Your mileage may vary! 
 
 ## Qualtrics
-I have some simple Qualtrics Javascript tricks for use in surveys [here](q-js/README.md). And [here](q-js/checklist.md) is a short checklist to make sure I'm not forgetting anything before launching a Qualtrics survey. 
+Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/README.md). And [here](q-js/checklist.md) is a short checklist to make sure you're not forgetting anything before launching a Qualtrics survey. 
 
 ## Splitting PDFs 
-When presenting busy experiment design visualizations in a presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
+When presenting busy experiment design visualizations in a Beamer presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
 
-The PDF has several pages. It is tedious to manually extract each page and save as a new PDF. The purpose of the below code is to use the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf. You can use python (say) to feed a pdf into the utility, which will automatically split the pdf into individual pages, indexed by numbers. For instance, if you input the pdf titled `experiment-design.pdf`, which is 5 pages long, it will generate 5 pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes. 
+The exported PDF has several pages. It is tedious to manually extract each page and save as a new PDF. The purpose of the below code is to use the simple command-line utility `split-pdf` to split the pdf and rename each page as a separate pdf, for inputting into Beamer. You can use Python (say) to call the utility and split the pdf into individual pages, indexed by numbers. For instance, if you input the pdf titled `experiment-design.pdf`, which is 5 pages long, it will generate 5 pdfs in the same directory titled `experiment-design-1.pdf`, `experiment-design-2.pdf`, ..., `experiment-design-5.pdf` in one line of code, saving you a few minutes of manually exporting. 
 
-The below code requires having installed `split-pdf`, via `brew install split-pdf`. They just call the utility. 
+The below code requires having installed `split-pdf`, via `brew install split-pdf`. The code just calls the utility. 
 
 - [Python](split-pdf.py). 
 - [Emacs lisp](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
