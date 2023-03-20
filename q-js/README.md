@@ -50,13 +50,14 @@ delete)* is.
 screen, like a GIF, but with images you create. This can be
 useful for examples or survey instructions. Probably similar to creating and uploading the GIF from the images directly. 
 
-## Converting percentages to plain-English proportions
+## Converting percentages to plain-English proportions for confirmation checks
+
 If you ask participants to enter a percentage, it can be useful to
 include a confirmation check that repeats a more intuitive, "plain-English" proportion
-back to them. For example, if the participant states that 20% of people do X, you can ask them to
-confirm that they meant "1 in 5" people do X. 
+back to them. For example, if the participant states that "20% of people do X", you can ask them to
+confirm that they meant "1 in 5 people do X."
 
-[This code](odds.js) generates an embedded data field called `proportion`, converted from a number (assumed to be out of 100). `proportion` contains the "reduced" "plain-English" proportion; if the number selected is 20, it will store the string "1 in 5". Add the code
+[This code](odds.js) generates an embedded data field called `proportion`, converted from a number (assumed to be out of 100). `proportion` contains the "reduced" "plain-English" proportion; if the number selected is 20, `proportion` stores the string "1 in 5". Add the code
 to a question that elicits a percentage as a slider from 0 to 100. You
 need to change the `QIDXXX` to your question ID number. The subsequent
 screen can encode the proportion. 
