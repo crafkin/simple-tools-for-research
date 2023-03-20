@@ -21,19 +21,22 @@ Beamer is smart enough to handle for loops. This is useful when presenting any g
 - [Minimal working example](iterate-visualization-example.tex). 
 
 ## Uninformative Git
-I use Git to sync between Overleaf and code on the server. Any minor
+Do you find it annoying to have to run three or four Git commands to push updated code or exhibits? 
+
+E.g., I use Git to sync between Overleaf and code on the server. Any minor
 change in Overleaf requires that I enter `git pull origin master`, `git commit
 -am`, and then `git push origin master` to push a new figure that Overleaf can see. I
-don't need informative comments for this process and want to do it in one line. I defined the aliases `git
-pp` and `git ppu` [here](gitconfig) that make this a one-step
-process. *Warning: the only Git comment for pushing it will be "update," so use at your
-own risk.* 
+don't need informative comments for this process and want to do it in one line. 
+
+I defined the aliases `git pp` and `git ppu` [here](gitconfig) that make pushing any updated code a one-step
+process, as long as the code has been staged at least once in the past. 
+
+*Warning: the only Git comment for pushing it will be "update," so use at your own risk.* 
+
 - Requires that your main branch be called `main` 
 - `git ppu` pulls and then pushes
-- If there is nothing new to pull from the other side, `git ppu` breaks. Just run `git
-  pp`. 
+- If there is nothing new to pull from the other side, `git ppu` breaks. Just run `git pp` instead. 
 - Also defines the aliases: (i) `git st` for `git status`, and (ii) `git ci` for
   `git commit -am`, which adds anything that has changed and has
   already been committed. 
-  
-
+ - As a bonus, it works from within Stata if you just add `!` in front of the commands: `!git ppu`. 
