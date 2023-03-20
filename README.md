@@ -4,7 +4,7 @@ This respository contains simple tools I use for research workflow. Your mileage
 ## Qualtrics
 Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/README.md). And [here](q-js/checklist.md) is a short checklist to make sure you're not forgetting anything before launching a Qualtrics survey. 
 
-## Automatically splitting PDFs 
+## Automatically split PDFs 
 Do you find it annoying to manually export PDFs into separate documents, e.g. for visualizations that gradually appear in a Beamer presenttion? 
 
 When presenting busy experiment design visualizations in a Beamer presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
