@@ -44,3 +44,4 @@ process, as long as the code has been staged at least once in the past.
   `git commit -am`, which adds anything that has changed and has
   already been committed. 
  - As a bonus, it works from within Stata if you just add `!` in front of the commands: `!git ppu`. 
+ - Important: new code needs to be staged (`git add filename`) as normal. 
