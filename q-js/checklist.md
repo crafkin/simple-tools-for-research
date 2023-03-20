@@ -11,7 +11,7 @@ I run through these before I hit “send” on any survey, to make sure I’m no
 - [ ] You have actively decided whether and when the survey should expire, using the Survey Options dropdowns. 
 - [ ] You have made an active decision about whether the back button should be visible at every question in the survey. 
 - [ ] You have made a decision about the anonymity of the survey, ballot stuffing, etc., on the Qualtrics Security preferences. 
-- [ ] You have made an active decision about whether every question shoudl be required or optional.
+- [ ] You have made an active decision about whether every question should be required or optional.
 
 ## Validations
 - [ ] All numeric questions have sensible validations (e.g., unless you are surveying CEOs, annual salaries are restricted to be between 0 and 1 million, etc.). 
