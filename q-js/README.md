@@ -47,8 +47,7 @@ delete)* is.
 
 ## Animations 
 [This code](animation.js) enables you to cycle through several pictures on one Qualtrics
-screen, like a GIF, but with images you create. This can be
-useful for examples or survey instructions. Probably similar to creating and uploading the GIF from the images directly. 
+screen, like a GIF. This can be useful for examples or survey instructions. Probably similar to creating and uploading the GIF from the images directly. 
 
 ## Converting percentages to plain-English proportions for confirmation checks
 
