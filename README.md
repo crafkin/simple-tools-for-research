@@ -4,7 +4,7 @@ This respository contains simple tools I use for research workflow. Your mileage
 ## Qualtrics
 Some simple Qualtrics Javascript tricks for use in surveys are [here](q-js/README.md). And [here](q-js/checklist.md) is a short checklist to make sure you're not forgetting anything before launching a Qualtrics survey. 
 
-## Splitting PDFs 
+## Automatically splitting PDFs 
 Do you find it annoying to manually export PDFs into separate documents, e.g. for visualizations that gradually appear in a Beamer presenttion? 
 
 When presenting busy experiment design visualizations in a Beamer presentation, it is useful to have the visualization populate sequentially. I first create the design visualization in Powerpoint or Google Slides. Then I create different slides that gradually reveal the whole design visualization by deleting elements and saving them as new slides. Then I export to a PDF. 
@@ -18,13 +18,13 @@ The below code requires having installed `split-pdf`, via `brew install split-pd
 - [Python](split-pdf.py). 
 - [Emacs lisp](split-pdf.lisp). Callable via `M-x split-pdf`, if added to your emacs config. 
 
-## Iterating through graphics on Beamer
+## For loops in Beamer
 Do you want Beamer to iterate through several slides that only change the graphic, e.g. for showing figures that gradually appear? 
 
 Beamer is smart enough to handle for loops. This is useful when presenting any graphic or figure that gradually appears. It's better to use for loops, rather than copy-paste and changing the suffix at the end of the pdf names, since doing that can introduce errors if you change another part of the slide. 
 - [Minimal working example](iterate-visualization-example.tex). 
 
-## Uninformative Git
+## One-line Git pull, commit, and push
 Do you find it annoying to have to run three or four Git commands on the command line to push updated code or exhibits? 
 
 E.g., I use Git to sync between Overleaf and code on the server. Any minor
