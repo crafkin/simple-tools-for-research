@@ -7,11 +7,11 @@ I run through these before I hit “publish” on any survey, to make sure I’m
 - [ ] You have generated test data and confirmed that all randomization probabilities are accurate. 
 - [ ] Any testing blocks or test embedded data have been deleted. 
 
-## Survey decisions — don’t use the Qualtrics defaults by accident! 
+## Make active survey decisions — don’t use the Qualtrics defaults by accident! 
 - [ ] You have actively decided whether and when the survey should expire, using the Survey Options dropdowns. 
-- [ ] You have made an active decision about whether the back button should be visible at every question in the survey. 
-- [ ] You have made a decision about the anonymity of the survey, ballot stuffing, etc., on the Qualtrics Security preferences. 
-- [ ] You have made an active decision about whether every question should be required or optional.
+- [ ] You have actively decided whether the back button should be visible at every question in the survey. 
+- [ ] You have actively decided about the anonymity of the survey, ballot stuffing, etc., on the Qualtrics Security preferences. 
+- [ ] You have actively decided whether every question should be required or optional.
 
 ## Validations
 - [ ] All numeric questions have sensible validations (e.g., unless you are surveying CEOs, annual salaries are restricted to be between 0 and 1 million, etc.). 
