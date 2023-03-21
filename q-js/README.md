@@ -69,10 +69,10 @@ through the task.
 
 To create an embedded data variable that will export with your data and contains the time when someone starts a task, use [this code](pageload.js). 
 
-This will set a variable called `PageLoad` that gives a javascript time,
+This sets a variable called `PageLoad` that gives a javascript time,
 in milliseconds since January 1, 1970, when they loaded the page
 for the first time. You will want to generate two of these (e.g., also
-when the subsequent page loads). The difference between the two timers will therefore corresponds to the
+when the subsequent page loads). The difference between the two timers will therefore correspond to the
 number of milliseconds elapsed on the given page. 
 
 ## Back buttons
